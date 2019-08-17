@@ -1,0 +1,142 @@
+#img1 {
+  
+  height: 300px;
+  width: 100%;
+  border: 2px solid;
+  box-shadow: 5px 5px 5px black;
+}
+
+body {
+  background: #2E7D32;
+}
+.heading {
+  font-family: 'Bree Serif', serif;
+  font-size: 60px;
+  text-align: center;
+  padding: 40px; 
+  
+}
+
+.flex-box {
+  margin-top: 10px;
+  display: flex;
+  flex-basis: auto;
+  font-size: 25px;
+  background: #66BB6A;
+  box-shadow: 7px 7px 40px black;
+}
+.flex-box div{
+  /* font-family: 'Lexend Tera', sans-serif; */
+  text-align: center;
+  height: 35px; 
+  width: 80px;
+  margin: 20px;
+
+}
+.flex-box a {
+  color: black;
+}
+.flex-box a:nth-child(1):hover {
+  box-shadow: 7px 7px 40px black;
+}
+.description > div{
+  font-size: 20px;
+  text-align: justified;
+  margin-top: 10px;
+  display: flex;
+  margin-left: 50px;
+}
+
+.description img {
+  height: 300px;
+  border: 2px solid;
+}
+
+.description {
+  margin-left: 10%;
+}
+.mL {
+  margin-left: 5%;
+  width: 50%;
+}
+
+.sub-heading {
+  font-family: 'Bree Serif', serif;
+  font-size: 35px;
+  text-align: left;
+  margin-left: 12%;
+  margin-top: 20px; 
+}
+
+.img_left {
+  height: 300px;
+  width: 200px;
+  border: 2px solid;
+}
+
+.shadowD {
+  box-shadow: 7px 7px 40px black;
+  background: #66BB6A;
+  padding: 15px;
+}
+.mL-override img {
+  margin-left: 10%;
+}
+
+#desc > div {
+  margin-left: 5px;
+}
+
+/* #bck {
+  background-image: url(http://www.ekabyiiflim.com/wp-content/uploads/2017/12/tennis-bg2.jpg); 
+} */
+
+#cont {
+  display: grid;
+  grid-gap: 40px;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto; 
+  padding: 20px;
+  text-align: center;
+}
+
+#cont border{
+  display: grid;
+  grid-gap: 40px;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto auto; 
+  padding: 20px;
+  text-align: center;
+}
+
+#cont iframe {
+  height: 300px;
+  width: 450px;
+}
+
+.border img,iframe{
+  border: 3px solid;
+  box-shadow: 7px 7px 40px black;
+}
+
+@media (max-width: 1500px) {
+  #cont {
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto; 
+    padding: 20px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 1000px) {
+  #cont {
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: auto;
+    grid-template-rows: auto; 
+    padding: 20px;
+    text-align: center;
+  }
+}
