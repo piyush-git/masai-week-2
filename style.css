@@ -1,5 +1,4 @@
 #img1 {
-  
   height: 300px;
   width: 100%;
   border: 2px solid;
@@ -7,7 +6,6 @@
 }
 
 body {
-  /* background: #2E7D32; */
   background: linear-gradient(135deg, #2E7D32, #2E7D32 20%, orange);
 }
 
@@ -24,12 +22,10 @@ body {
   display: flex;
   flex-basis: auto;
   font-size: 25px;
-  /* background: #66BB6A; */
   background: linear-gradient(135deg, #66BB6A, #66BB6A 30%, #1B5E20);
   box-shadow: 7px 7px 40px black;
 }
 .flex-box div{
-  /* font-family: 'Lexend Tera', sans-serif; */
   text-align: center;
   height: 35px; 
   width: 80px;
@@ -91,10 +87,6 @@ body {
   margin-left: 5px;
 }
 
-/* #bck {
-  background-image: url(http://www.ekabyiiflim.com/wp-content/uploads/2017/12/tennis-bg2.jpg); 
-} */
-
 #cont {
   display: grid;
   grid-gap: 40px;
@@ -129,22 +121,12 @@ body {
 
 @media (max-width: 1500px) {
   #cont {
-    /* display: grid;
-    grid-gap: 40px; */
     grid-template-columns: auto auto;
-    /* grid-template-rows: auto auto;  */
-    /* padding: 20px;
-    text-align: center; */
   }
 }
 
 @media (max-width: 1000px) {
   #cont {
-    /* display: grid;
-    grid-gap: 40px; */
     grid-template-columns: auto;
-    /* grid-template-rows: auto;  */
-    /* padding: 20px;
-    text-align: center; */
   }
 }
